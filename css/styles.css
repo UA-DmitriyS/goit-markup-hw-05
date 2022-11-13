@@ -82,6 +82,9 @@ img {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: #212121;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link::after {
   content: "";
@@ -131,6 +134,9 @@ img {
 
   color: #757575;
   fill: #757575;
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .heder-cont span {
   margin-left: 10px;
@@ -340,6 +346,9 @@ img {
   border-radius: 50%;
 
   fill: #afb1b8;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   /* border: 1px solid tomato; */
 }
@@ -381,6 +390,9 @@ img {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   color: #ffffff;
 }
@@ -391,6 +403,9 @@ img {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .f-mail {
   font-size: 14px;
@@ -398,6 +413,9 @@ img {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .f-tel:hover,
 .f-tel:focus {
@@ -475,6 +493,9 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-border:hover,
 .clients-border:focus {
@@ -520,6 +541,9 @@ img {
   cursor: pointer;
   border: none;
   color: #212121;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-nav {
   margin-right: 8px;
@@ -542,6 +566,9 @@ img {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .cards:hover,
 .cards:focus {
